@@ -18,7 +18,7 @@ services:
       retries: 5
 
   airbyte:
-    image: airbyte/airbyte:oss-latest
+    image: ghcr.io/airbytehq/airbyte-ce:0.58.0
     container_name: deal-intel-airbyte
     ports:
       - "8000:8000"          # Web UI
